@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WH" targetNamespace="http://tempuri.org/WH.xsd" xmlns:mstns="http://tempuri.org/WH.xsd" xmlns="http://tempuri.org/WH.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="WHConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="WHConnectionString (Settings)" PropertyReference="ApplicationSettings.PrintBarCode.Properties.Settings.GlobalReference.Default.WHConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WH" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="WH" msprop:Generator_UserDSName="WH">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Wh" msprop:Generator_TableClassName="WhDataTable" msprop:Generator_TableVarName="tableWh" msprop:Generator_TablePropName="Wh" msprop:Generator_RowDeletingName="WhRowDeleting" msprop:Generator_RowChangingName="WhRowChanging" msprop:Generator_RowEvHandlerName="WhRowChangeEventHandler" msprop:Generator_RowDeletedName="WhRowDeleted" msprop:Generator_UserTableName="Wh" msprop:Generator_RowChangedName="WhRowChanged" msprop:Generator_RowEvArgName="WhRowChangeEvent" msprop:Generator_RowClassName="WhRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sid" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnSid" msprop:Generator_ColumnPropNameInRow="Sid" msprop:Generator_ColumnPropNameInTable="SidColumn" msprop:Generator_UserColumnName="Sid" type="xs:int" minOccurs="0" />
+              <xs:element name="WH_No" msprop:Generator_ColumnVarNameInTable="columnWH_No" msprop:Generator_ColumnPropNameInRow="WH_No" msprop:Generator_ColumnPropNameInTable="WH_NoColumn" msprop:Generator_UserColumnName="WH_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WH_Name" msprop:Generator_ColumnVarNameInTable="columnWH_Name" msprop:Generator_ColumnPropNameInRow="WH_Name" msprop:Generator_ColumnPropNameInTable="WH_NameColumn" msprop:Generator_UserColumnName="WH_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WH_Man" msprop:Generator_ColumnVarNameInTable="columnWH_Man" msprop:Generator_ColumnPropNameInRow="WH_Man" msprop:Generator_ColumnPropNameInTable="WH_ManColumn" msprop:Generator_UserColumnName="WH_Man" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Var1" msprop:Generator_ColumnVarNameInTable="columnVar1" msprop:Generator_ColumnPropNameInRow="Var1" msprop:Generator_ColumnPropNameInTable="Var1Column" msprop:Generator_UserColumnName="Var1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Var2" msprop:Generator_ColumnVarNameInTable="columnVar2" msprop:Generator_ColumnPropNameInRow="Var2" msprop:Generator_ColumnPropNameInTable="Var2Column" msprop:Generator_UserColumnName="Var2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Var3" msprop:Generator_ColumnVarNameInTable="columnVar3" msprop:Generator_ColumnPropNameInRow="Var3" msprop:Generator_ColumnPropNameInTable="Var3Column" msprop:Generator_UserColumnName="Var3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Var4" msprop:Generator_ColumnVarNameInTable="columnVar4" msprop:Generator_ColumnPropNameInRow="Var4" msprop:Generator_ColumnPropNameInTable="Var4Column" msprop:Generator_UserColumnName="Var4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPrint" msprop:Generator_ColumnVarNameInTable="columnIsPrint" msprop:Generator_ColumnPropNameInRow="IsPrint" msprop:Generator_ColumnPropNameInTable="IsPrintColumn" msprop:Generator_UserColumnName="IsPrint" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
